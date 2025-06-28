@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+    <div id="heading"><h1>Calculator</h1>
+    <div id="cal">
+        <input id="show" type="text" placeholder="Type here...">
+        <div id="keys">
+            <button id="special" onclick="appendToDiplay('+')">M+</button>
+            <button id="special"onclick="appendToDiplay('-')">M-</button>
+            <button id="special" onclick="appendToDiplay('%')">%</button>
+            <button id="special" onclick="clearDisplay()">AC</button>
+            <button onclick="appendToDiplay('7')">7</button>
+            <button onclick="appendToDiplay('8')">8</button>
+            <button onclick="appendToDiplay('9')">9</button>
+            <button id="special" onclick="appendToDiplay('/')">/</button>
+            <button onclick="appendToDiplay('4')">4</button>
+            <button onclick="appendToDiplay('5')">5</button>
+            <button onclick="appendToDiplay('6')">6</button>
+            <button id="special" onclick="appendToDiplay('*')">X</button>
+            <button onclick="appendToDiplay('1')">1</button>
+            <button onclick="appendToDiplay('2')">2</button>
+            <button onclick="appendToDiplay('3')">3</button>
+            <button id="special" onclick="appendToDiplay('-')">-</button>
+            <button onclick="appendToDiplay('0')">0</button>
+            <button onclick="appendToDiplay('.')">.</button>
+            <button id="special1" onclick="calculate()">=</button>
+            <button id="special" onclick="appendToDiplay('+')">+</button>
+        </div>
+    </div>
+    </div>
+    <script src="task3.js"></script>
+</body>
+</html>
